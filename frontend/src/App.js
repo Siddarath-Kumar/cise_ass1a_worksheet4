@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Route,
   NavLink,
@@ -6,7 +7,7 @@ import {
 import Home from "./pages/Home";
 import SEPractice from "./pages/SE-Practice";
 import SubmitArticle from "./pages/Submit-Article"; 
-import NotFoundPage from "./pages/404";
+//import NotFoundPage from "./pages/404";
 const App = () =>  {
     return (
         <Router>
